@@ -158,20 +158,24 @@ div>p{
     bottom: 0;
 }
 .Group-75{
-    scale: .70;  
+    scale: .80;  
     position: absolute;
-    left:40px;
+    left:0px;
+    bottom: 20px;
     z-index: 1;
     mix-blend-mode: unset;
     
 }
 .best-gifts{
-    width: 1320px;
-    height: 1100px;
+background-color: aqua;
 }
-.gifts-photo{
-    display:grid;
-    grid-template-columns: repeat(3) 1fr;
-    grid-template-rows: repeat(2) 1fr;
-    grid-gap: 20px;
+
+
+
+.fotter-section{
+    display: flex;
+}
+.copyright{
+   display: flex;
+   justify-content: space-between;
 }
