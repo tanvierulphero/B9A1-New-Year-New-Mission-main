@@ -1,18 +1,177 @@
 *{
     margin: 0 auto;
+
+    
+       
 }
+  
+ 
 header{
     width: 1320px;
     height: 600px;
     background-image:url(../resources/Banner\ Image.png);
     background-repeat: no-repeat;
+   
     
 }
-.text-align-center{
-    padding: 100px 0;
-    text-align: center;
-    
-  }
+
+.header-section{
+    display: flex;
+    width: 1320px;
+    height: 600px;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%,);
+    opacity: 65%;
+    border-radius: 15px;       
+}
+
 .primary-color{
     color: white;
+}
+.secondary-color{
+    color: red;
+}
+.text-align-center{
+text-align: center;
+
+}
+h3{
+    font-family: "Merriweather", serif;
+     font-weight:   400;
+    font-style: normal;
+}
+
+.party{
+    width: 632px;
+    font-size: 72px;
+}
+    
+.offer{
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+   
+}
+h2{
+    font-size: 88px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 24;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.welcome{
+    margin-top: 100px;
+    width: 1320px;
+    height: 600px;
+    background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.welcome-bg{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.midnight{
+    font-weight: bold;
+    font-size: 72px;
+}
+.welcome>p{
+margin-left: 100px;
+}
+div>h3{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+div>p{
+    margin: 10px;
+}
+.events-time{
+    margin: 100PX;
+    align-items: center;
+    text-align: center;
+    font-size: 32pt;
+}
+.btn-bg{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.BEST-OFFER{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+.elipse{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    
+}
+.NEW{
+    width: 393px;
+    height: 255px;
+}
+.round-bg{
+    border: 10px solid red;
+    border-radius: 200px;
+}
+.holidays-sale{
+    width: 1320px;
+    height: 986px;
+    text-align: center;
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    z-index: -1;
+.holidays-sale>p{
+    width: 1068px;
+    font-size: 20px;
+    display: flex;
+ 
+}
+.rec-1{
+    position: absolute;
+    right: 0;
+    bottom: 230px;
+    
+}
+.Group-44{
+   position: absolute;
+    top:400px;
+   left: 420px;
+    right:0;
+    bottom: 0;
+}
+.Group-75{
+    scale: .70;  
+    position: absolute;
+    left:40px;
+    z-index: 1;
+    mix-blend-mode: unset;
+    
+}
+.best-gifts{
+    width: 1320px;
+    height: 1100px;
+}
+.gifts-photo{
+    display:grid;
+    grid-template-columns: repeat(3) 1fr;
+    grid-template-rows: repeat(2) 1fr;
+    grid-gap: 20px;
 }
