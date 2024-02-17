@@ -1,0 +1,18 @@
+*{
+    margin: 0 auto;
+}
+header{
+    width: 1320px;
+    height: 600px;
+    background-image:url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    
+}
+.text-align-center{
+    padding: 100px 0;
+    text-align: center;
+    
+  }
+.primary-color{
+    color: white;
+}
