@@ -1,6 +1,6 @@
 *{
     margin: 0 auto;
-
+    
     
        
 }
@@ -132,50 +132,116 @@ div>p{
 .holidays-sale{
     width: 1320px;
     height: 986px;
-    text-align: center;
     background-image: url(resources/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-position: bottom;
     position: relative;
-    z-index: -1;
+    text-align: center;
+    align-items: center;
+
+} 
+
+    
 .holidays-sale>p{
     width: 1068px;
     font-size: 20px;
     display: flex;
  
 }
-.rec-1{
+.rectangle{
     position: absolute;
+    left: auto;
     right: 0;
-    bottom: 230px;
+    top:auto;
+    bottom: 220px ;
+    z-index: -1;
     
-}
-.Group-44{
+  
+    }
+.group-forty{
    position: absolute;
-    top:400px;
-   left: 420px;
-    right:0;
-    bottom: 0;
-}
-.Group-75{
-    scale: .80;  
+   top: auto;
+   bottom: 250px;
+   left: auto;
+   right: 300px;
+ 
+   }
+.group-sev{
+    scale: .75;
     position: absolute;
-    left:0px;
-    bottom: 20px;
-    z-index: 1;
-    mix-blend-mode: unset;
+    left: 0;
+    bottom: 0;
     
 }
 .best-gifts{
-background-color: aqua;
+    width: 1320px;
+    margin-top: 100px;
+    
 }
-
-
+.gifts-photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.best-gifts>p{
+    font-size: 24px;
+    margin-left: 0;
+    width: 900px;
+}
+.subscribe{
+    margin-top: 100px;
+    width: 1320px;
+    text-align: center;
+}
+.user{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+}
+.subs{
+    color: white;
+    background-color: red;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
 
 .fotter-section{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1320px;
+    background-color: black;   
+    }
+.details{
     display: flex;
+    
 }
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.phoneNum{
+    display: flex;
+    align-items: center;
+}
+.call{
+    width: 15%;
+    height: 15%;
+}
+.website{
+    display: flex;
+    align-items: center;
+}
+.social-media{
+    width: 25%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+       
+   }
 .copyright{
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
