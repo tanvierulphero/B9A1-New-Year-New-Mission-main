@@ -1,8 +1,6 @@
 *{
     margin: 0 auto;
-    
-    
-       
+      
 }
   
  
@@ -21,7 +19,6 @@ header{
     height: 600px;
     align-items: center;
     background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%,);
     opacity: 65%;
     border-radius: 15px;       
 }
@@ -99,7 +96,7 @@ div>p{
     align-items: center;
     text-align: center;
     font-size: 32pt;
-}
+    }
 .btn-bg{
     background-color: red;
     padding: 10px 20px;
